@@ -2,10 +2,18 @@ import React, { useRef } from "react";
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      "lottie-player": React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+      "lottie-player": {
+        src: string;
+        background: string;
+        speed: number;
+        style: { width: string; height: string };
+        loop: true;
+        autoPlay: true;
+      };
     }
   }
 }
+
 const index = () => {
   const ref = useRef(null);
   React.useEffect(() => {
