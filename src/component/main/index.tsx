@@ -176,12 +176,12 @@ const index = () => {
             <div className="about_review-wrapper">
               <div className="media">
                 <picture>
-                  <source data-srcset="img/person-01.jpeg" srcSet="img/person-01.jpeg" />
+                  <source data-srcset="img/person-01.jpeg" srcSet="img/avatar-dat.jpg" />
                   <img className="lazy" data-src="img/person-01.jpeg" src="img/person-01.jpeg" alt="media" />
                 </picture>
               </div>
               <div className="main">
-                <h5 className="main_name">Teacher Chương Chu</h5>
+                <h5 className="main_name">Teacher Trần Tiến Đạt</h5>
                 <ul className="rating d-flex align-items-center">
                   <li className="rating_star">
                     <i className="icon-star icon" />

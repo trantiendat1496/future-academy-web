@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import "../styles/globals.css";
-import "../styles/Home.module.css";
 import type { AppProps } from "next/app";
 import "../styles/icomoon.css";
 import "../styles/library.css";
