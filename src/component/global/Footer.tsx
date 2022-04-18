@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer_wrapper d-sm-flex flex-wrap flex-lg-nowrap justify-content-lg-between">
           <div className="footer_block col-sm-6 col-lg-auto" data-order={1}>
             <div className="logo logo--footer">
-              <a className="d-inline-flex align-items-center" href="index.html">
+              <a className="d-inline-flex align-items-center" href="/">
                 <span className="logo_picture">
                   <img src="logo.png" alt="Edison" />
                 </span>
@@ -45,7 +45,7 @@ const Footer = () => {
             <h5 className="footer_block-header">Thông tin:</h5>
             <ul className="footer_block-nav">
               <li className="footer_block-nav_item">
-                <a className="link" href="index.html">
+                <a className="link" href="/">
                   Trang chủ
                 </a>
               </li>

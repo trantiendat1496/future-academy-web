@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header" data-page="home">
       <div className="container d-flex flex-wrap justify-content-between align-items-center">
         <div className="logo header_logo">
-          <a className="d-inline-flex align-items-center" href="index.html">
+          <a className="d-inline-flex align-items-center" href="/">
             <span className="logo_picture">
               <img src="/logo.png" alt="Edison" />
             </span>
@@ -19,7 +19,7 @@ const Header = () => {
         <nav className="header_nav collapse" id="headerMenu">
           <ul className="header_nav-list">
             <li className="header_nav-list_item">
-              <a className="nav-item" href="index.html" data-page="home">
+              <a className="nav-item" href="/" data-page="home">
                 Trang chủ
               </a>
             </li>
