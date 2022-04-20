@@ -11,6 +11,8 @@ import "../styles/libs.css";
 import "../styles/post.css";
 import "../styles/preload.css";
 import "../styles/index.css";
+import Header from "../src/component/global/Header";
+import Footer from "../src/component/global/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -21,7 +23,13 @@ function MyApp({ Component, pageProps }: AppProps) {
     });
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Header></Header>
+      <Component {...pageProps} />
+      <Footer></Footer>
+    </>
+  );
 }
 
 export default MyApp;
